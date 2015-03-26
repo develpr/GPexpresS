@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+        	<meta charset="utf-8" />
+        	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        	<title>To: GPS Coordinates</title>
+        	<link rel="stylesheet" href="css/app.css" />
+	</head>
+	<body>
+		<div id="active-display">	
+			<div id="latitude">
+				<div class="original"></div>
+				<div class="converted">
+					<span class="cardinal"></span>
+					<span class="degrees"></span>
+					&nbsp;
+					<span class="minutes"></span>
+					<span class="period">.</span>
+					<span class="seconds"></span>
+				</div>
+			</div>
+			<div id="longitude">
+				<div class="original"></div>
+				<div class="converted">
+					<span class="cardinal"></span>
+					<span class="degrees"></span>
+					&nbsp;
+					<span class="minutes"></span>
+					<span class="period">.</span>
+					<span class="seconds"></span>
+				</div>
+			</div>
+		</div>
+		<div id="non-active-display">
+			nothing to convert
+		</div>
+				
+		<input type="text" id="holding" />		
+
+        	<script src="js/jquery.js"></script>
+        	<script src="js/app.js"></script>
+
+	</body>
+
+</html>

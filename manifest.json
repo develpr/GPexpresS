@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Clipboard GPS Converter",
+  "description": "This extension will attempt to convert the contents of your clipboard into a NXXX XX.XXX format",
+  "version": "1.0",
+
+  "browser_action": {
+	"default_icon": "img/icon_no.png",
+	"default_popup": "display.html",
+	"default_title": "GPS Converter"
+
+  },
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardRead",
+    "http://www.reddit.com/"
+  ]
+}
